@@ -1,0 +1,95 @@
+*{
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+}
+.container{
+         width: 100%;
+         height: 100%;
+         min-height: 800px;
+         background: hsla(239, 100%, 67%, 1);
+
+ background: linear-gradient(90deg, hsla(239, 100%, 67%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);
+
+ background: -moz-linear-gradient(90deg, hsla(239, 100%, 67%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);
+
+ background: -webkit-linear-gradient(90deg, hsla(239, 100%, 67%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);
+
+ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#595CFF", endColorstr="#C6F8FF", GradientType=1 );
+ display:flex;
+ justify-content: center;
+ align-items:center;
+}
+.card{
+         width:350px;
+         height: 450px;
+         background-color:white;
+         border-radius: 20px;
+         display:flex;
+         flex-direction:column;
+         align-items:center;
+         gap: 25px;
+}
+.card img{
+         width: 100%;
+         height: 30%;
+         border-top-right-radius: 20px;
+         border-top-left-radius: 20px;
+}
+.textBox{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        gap: 25px;
+        width:70%;
+        text-align:center;
+}
+.card p{
+         
+         font-size: medium;
+}
+.amountBox{
+         width: 80%;
+         height:10%;
+         background-color: #8BC6EC;
+         border-radius:10px;
+         display:flex;
+         justify-content:space-between;
+         align-items:center;
+         padding-right:20px;
+         padding-right: 20px;
+
+
+}
+#leftBox{
+         height:100%;
+      width:fit-content;
+      display:flex;
+      gap:15px;
+      align-items:center;
+
+}
+
+#payment{
+       width: 80%;
+         height: 9%;
+         background-color:rgb(13, 13, 70);
+         color:white;
+         border-radius: 10px;
+         box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.cancelBox a{
+         text-decoration: none;
+         color:rgb(44, 43, 43);
+         font-weight: bold;
+         font-size:large;
+}
+.imgBox img{
+         height: 2rem;
+         width:2rem;
+         border-radius:20px;
+         padding-left:3px;
+         padding-right:2px;
+         padding-top: 2.5px;
+}
